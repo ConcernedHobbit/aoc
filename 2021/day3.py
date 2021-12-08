@@ -63,4 +63,3 @@ for i in range(len(most_common)):
 generator = int(generator[0], 2)
 scrubber = int(scrubber[0], 2)
 print(f'Part 2: {generator * scrubber}')
-

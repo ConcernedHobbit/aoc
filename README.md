@@ -1,6 +1,6 @@
-# Advent of Code 2021
-a cs student's ugly and very much not quick solutions to this year's advent of code puzzles
+# Advent of Code
+a cs student's ugly and very much not quick solutions to advent of code puzzles
 
-assumes that input is present at corresponding day*.txt file
+currently assumes that input is present at corresponding day*.txt file
 
-(e.g. day1.py reads from day1.txt)
+(e.g. 2021/day1.py reads from 2021/day1.txt)
