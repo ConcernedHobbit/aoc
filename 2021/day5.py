@@ -66,6 +66,6 @@ for x in range(width):
         pixels[x, y] = colors[vent.part2]
 image.save('day5.png', 'png')
 
-print(width, height)
-print(part1)
-print(part2)
+print(f'Part 1: {part1}')
+print(f'Part 2: {part2}')
+print('You can find an image of the vent configuration in day5.png')

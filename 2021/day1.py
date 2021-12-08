@@ -10,5 +10,5 @@ for i in range(len(numbers)):
         part_two += 1
 
 
-print(f'Part one: {part_one}')
-print(f'Part two: {part_two}')
+print(f'Part 1: {part_one}')
+print(f'Part 2: {part_two}')

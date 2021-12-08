@@ -84,12 +84,14 @@ for line in open('day4.txt'):
 boards.append(current_board)
 
 num_boards = len(boards)
+part = 1
 for num in numbers:
     for board in boards:
         board.mark_number(num)
         if board.has_won:
             if len(boards) in (num_boards, 1):
                 print(board)
-                print(f'{sum(board.unmarked)} * {num} = {sum(board.unmarked) * num}')
+                print(f'Part {part}: {sum(board.unmarked)} * {num} = {sum(board.unmarked) * num}')
                 print()
+                part += 1
             boards = [b for b in boards if b is not board]
